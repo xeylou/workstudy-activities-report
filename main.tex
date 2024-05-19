@@ -1,0 +1,86 @@
+% import des données annexes au document
+\input{preamble}
+\input{glossary}
+\addbibresource{bibfile.bib}
+
+% définition de la nomenclature des théorèmes
+\usepackage[utf8]{inputenc}
+\usepackage{mathrsfs}
+\newtheorem{thm}{Théorème}
+\newtheorem*{thm*}{Théorème}
+
+% définition des couleurs utilisées dans le document
+\RequirePackage{xcolor}
+\definecolor{Rouge}{rgb}{0.5,0,0}
+
+% données du document
+\hypersetup{
+    colorlinks = {true},
+    linktocpage = {false},
+    plainpages = {false},
+    linkcolor = {Rouge},
+    citecolor = {Rouge},
+    urlcolor = {Rouge},
+    unicode = {true},
+    pdftitle = {Rapport d'activités en entreprise ADITU 31-05-2024}, 
+    pdfauthor = {Alexis Déhu},
+    pdfsubject = {Rapport des activités de ma première année d'alternance chez ADITU du 01-07-2023 au 31-05-2024},
+    pdfkeywords = {enseignement, apprentissage, alternance, iut, but, rt, uppa, pau, mont, de, marsan, mont-de-marsan, bidart, aditu, administrateur, réseaux, systèmes}
+}
+
+% changement des appellations que prennent les figures et tableaux
+\usepackage[figurename=Fig.]{caption}
+\usepackage[tablename=Tab.]{caption}
+
+% filigramme pour versions non finales
+\newcommand\watermark{Brouillon}
+\usepackage[color={[RGB]{255,191,191}}, text=\watermark, scale=1]{draftwatermark}
+
+% modification des en-têtes et pieds de pages
+\usepackage{fancyhdr,graphicx,lastpage}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyhead[R]{\textit{Rapport d'activités en entreprise}}% tête de page à droite
+  \fancyhead[L]{\textit{Alexis Déhu}}% tête de page à gauche
+  \fancyfoot[L]{\textit{2023-2024}}% pied de page à gauche
+  \fancyfoot[R]{\thepage\  / \pageref{LastPage}}% pied de page à droite
+}
+\pagestyle{plain}
+
+\begin{document}
+
+% retours à la ligne biens
+\begin{sloppypar}
+
+\include{sections/page_accueil}
+\include{sections/page_blanche}
+\include{sections/remerciements}
+\include{sections/page_blanche}
+
+% page table des matières
+\renewcommand*\contentsname{Table des matières}
+\tableofcontents
+
+\include{sections/introduction}
+\include{sections/presentation_aditu}
+\include{sections/activites}
+\include{sections/conclusion}
+\include{sections/bilan}
+\include{sections/annexes}
+
+
+% \printbibliography % [title={Whole bibliography}
+
+% \newpage
+% \label{glossaire}
+
+% \setglossarystyle{listhypergroup}
+% \glsaddallunused
+% \printglossary[type=\acronymtype, title={Liste des abréviations}]
+% \printglossary[title={Glossaire}]
+
+% \newpage
+% \appendix
+
+\end{sloppypar}
+\end{document}

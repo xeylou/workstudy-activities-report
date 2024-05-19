@@ -1,0 +1,66 @@
+\pagestyle{empty}
+
+% espacement pour la page de titre uniquement
+\newgeometry{margin=1in}
+
+% variables
+\newcommand\titreDocument{\bfseries Rapport d'activités}
+\newcommand\poste{Apprenti Administrateur Systèmes et Réseaux en alternance}
+\newcommand\auteurDocument{Alexis Déhu}
+\newcommand\dateRendu{\bfseries le 31 Mai 2024}
+\newcommand\nomResponsable{M. Éric Pierre-Sala}
+\newcommand\nomTuteur{M. Guillaume Devesa}
+\newcommand\nomEnseignantReferant{M. Angel Abénia}
+\newcommand\nomFormation{BUT Réseaux et Télécommunications parcours Cybersécurité, 2ème année}
+\newcommand\nomEntreprise{ADITU, Technopole Izarbel Côte Basque, 64210 Bidart}
+% fin variables
+
+\begin{titlepage}
+   \begin{center}
+
+        % détachement du haut de la page
+        \vspace*{2cm}
+
+        % logo de l'université, de l'établissement et du département
+        \href{https://www.univ-pau.fr/}{\includegraphics[width=0.25\textwidth]{images/logo/uppa.png}}
+        \quad \quad
+        \href{https://iutpa.univ-pau.fr/fr/index.html}{\includegraphics[width=0.25\textwidth]{images/logo/iut.jpg}}
+        \quad
+        \href{https://iutpa.univ-pau.fr/fr/l-iut/nos-campus/campus-de-mont-de-marsan.html}{\includegraphics[width=0.25\textwidth]{images/logo/mdm.png}}\\
+
+        % barre horizontale
+        \noindent\rule[0.25\baselineskip]{\textwidth}{1pt}
+
+        % espacement de la barre horizontale avec le titre du document
+        \vspace{0.5 cm} 
+
+        \Huge{\titreDocument} 
+
+        \vspace{0.5cm}
+        \LARGE{\poste}
+          
+        \vspace{2.5 cm}
+        \large{\auteurDocument}\\
+        \large{\dateRendu}\\
+
+        \vspace{4 cm}
+         
+        \leftline{\small{\textbf{Responsable :} \nomResponsable}}
+        \leftline{\small{\textbf{Maître d'apprentissage :} \nomTuteur}}
+        \leftline{\small{\textbf{Enseignant référent :} \nomEnseignantReferant}}
+
+        \vspace{1 cm}
+
+        \leftline{\small{\textbf{Formation :} \nomFormation}}
+        \leftline{\small{\textbf{Entreprise d'accueil :} \nomEntreprise}}
+
+        % retour de la barre horizontale
+        \noindent\rule[0.25\baselineskip]{\textwidth}{1pt}\\
+        
+        \href{https://www.aditu.fr/}{\includegraphics[width=0.25\textwidth]{images/logo/aditu.png}}
+
+    \end{center}
+\setcounter{page}{0}
+\end{titlepage}
+
+\restoregeometry

@@ -1,0 +1,94 @@
+<mxfile host="Electron" modified="2024-05-19T17:54:15.031Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/118.0.5993.159 Electron/27.3.11 Safari/537.36" etag="B7ElnmGBGZJoMFXFMUkF" version="22.0.3" type="device">
+  <diagram name="Page-1" id="FFSi_VDdsWqogkjKI_vY">
+    <mxGraphModel dx="1434" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-3" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.key;" parent="1" vertex="1">
+          <mxGeometry x="540" y="290" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.user;" parent="1" vertex="1">
+          <mxGeometry x="470" y="290" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-6" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.key;" parent="1" vertex="1">
+          <mxGeometry x="540" y="400" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-7" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.user;" parent="1" vertex="1">
+          <mxGeometry x="470" y="400" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-8" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.key;" parent="1" vertex="1">
+          <mxGeometry x="540" y="510" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-9" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.user;" parent="1" vertex="1">
+          <mxGeometry x="470" y="510" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-11" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.datacenter;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="390" width="133.11" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.datacenter;" parent="1" vertex="1">
+          <mxGeometry x="1075.3" y="495" width="133.11" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-13" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.vmware_vcloud_director;" parent="1" vertex="1">
+          <mxGeometry x="780" y="400" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-15" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" source="Amt-iZ7204JXbdXvSq5N-3" target="Amt-iZ7204JXbdXvSq5N-13" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="560" y="385" as="sourcePoint" />
+            <mxPoint x="660" y="385" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-16" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" source="Amt-iZ7204JXbdXvSq5N-6" target="Amt-iZ7204JXbdXvSq5N-13" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="620" y="351" as="sourcePoint" />
+            <mxPoint x="790" y="429" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-17" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" source="Amt-iZ7204JXbdXvSq5N-8" target="Amt-iZ7204JXbdXvSq5N-13" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="620" y="445" as="sourcePoint" />
+            <mxPoint x="790" y="445" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-18" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.datacenter;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="290" width="133.11" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-20" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.key;" parent="1" vertex="1">
+          <mxGeometry x="850" y="400" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-21" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" source="Amt-iZ7204JXbdXvSq5N-20" target="Amt-iZ7204JXbdXvSq5N-18" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="620" y="445" as="sourcePoint" />
+            <mxPoint x="790" y="445" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-22" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" source="Amt-iZ7204JXbdXvSq5N-20" target="Amt-iZ7204JXbdXvSq5N-11" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="930" y="431" as="sourcePoint" />
+            <mxPoint x="1080" y="370" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-23" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" source="Amt-iZ7204JXbdXvSq5N-20" target="Amt-iZ7204JXbdXvSq5N-12" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="930" y="445" as="sourcePoint" />
+            <mxPoint x="1080" y="443" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-25" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;UTILISATEURS AVEC LEURS CLES&lt;br&gt;INDIVIDUELLES&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="410" y="610" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-26" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;SERVEUR BASTION AVEC SA/SES CLES&lt;br&gt;AUTORISE LES ACCÈS&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="610" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Amt-iZ7204JXbdXvSq5N-27" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;GROUPES DE MACHINES DU&lt;br&gt;PARCS INFORMATIQUES&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1026.8500000000001" y="610" width="230" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
